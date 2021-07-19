@@ -1,0 +1,22 @@
+Title: Survival Chance in Titanic using Linear Regression.
+Data Used: Titanic from Seaborn
+Objective: Predict if a passenger will survive on the Titanic
+Apprach Used: Linear Regrssion
+Method:
+1. Load the libraries suc as numpy, pandas, matplotlib, seaborn, sklearn..
+2. Load the titanic data.
+3. Observe the data using info, describe etc..
+4. Visualise the data in respect to number of passengers survived using multiple graphs and pivots.
+5. Copy the data in a different variable excluding redundant columns.
+6. Look for null values in the data and replace them by mean or rmove them from  data set depending on number of null values. E.g. Age had 177 null values and embarked had 2.
+   Therefore, I replaced null values in Age by mean, while removed null valued rows based on embarked column.
+7. Once all null values are removed, change categorical values to numerical using Label Encoder.
+8. Splitting the data into X and Y where Y is the Dependent variable i.e. Survived and X is the Independent variable i.e the rest od the columns.
+9. Use train test split to divide the data. 80% is used for training. 20%  is used for test.
+10. Use Standard Scaler to scale the data.
+11. Importing Logistic Regression to train the data.
+12. Check the training Accuracy
+13. Check test score.
+14. Use log.predict to predict the data and compare it with the test set.
+15. Test the model on hypthetical value #mysurvivalchance
+   
