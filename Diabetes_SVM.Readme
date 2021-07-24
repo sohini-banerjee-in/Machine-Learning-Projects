@@ -1,0 +1,14 @@
+Objective: Predicting cahnces of diabetes in females
+Approach Used: Support Vector Machine (Linear)
+Proces:
+1. Import libraries (numpy, pandas, skitlearn, matplotlib, seaborn)
+2. Read the data using pandas
+3. Analyse the data to find the data types, shape, and description(mean, min, max etc)
+4. Create a plot to see the number of diabetic patients vs non diabetic patients visually
+5. Split the data into dependent and independent variables
+6. Divide the data into train (80%) and test (20%) using train_test_split
+7. Loading the SVC (classifier) from SVM model
+8. Fitting the model to training data
+9. Testing the accuracy of the model in train and test data. (Both are over 75% here)
+10. Predict data based on user input.
+
